@@ -21,8 +21,8 @@ namespace teht1
             set
             {
                 if (value >= minFloor && value <= maxFloor) floor = value;
-              //  else if (value == 0)
-              //      Console.WriteLine("Stop");
+                else if (value == 0)
+                   Console.WriteLine("Stop");
                 else
                 {
                     Console.WriteLine("Not a valid floor request");
